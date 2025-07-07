@@ -32,3 +32,25 @@
 ☐ git branch -m <new> – Rename branch
 
 ☐ git branch -d <branch> – Delete branch
+
+MERGING & CONFLICTS
+
+☐ git merge <branch> – Merge another branch
+
+☐ Resolve conflicts manually →
+☐ git add <file>
+☐ git commit
+
+☐ git merge --abort – Cancel merge
+
+ STASHING
+
+☐ git stash – Save changes for later
+
+☐ git stash list – See stashes
+
+☐ git stash apply – Apply stash
+
+☐ git stash pop – Apply + delete stash
+
+☐ git stash drop – Delete stash
