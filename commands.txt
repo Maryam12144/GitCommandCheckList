@@ -32,3 +32,61 @@
 ☐ git branch -m <new> – Rename branch
 
 ☐ git branch -d <branch> – Delete branch
+
+ UNDOING CHANGES
+
+☐ git restore <file> – Discard changes
+
+☐ git restore --staged <file> – Unstage file
+
+☐ git diff – View unstaged differences
+
+☐ git diff <branch1> <branch2> – Compare branches
+
+☐ git reset --soft HEAD~1 – Undo commit (keep changes staged)
+
+☐ git reset HEAD~1 – Undo commit (keep changes unstaged)
+
+☐ git reset --hard HEAD~1 – Undo commit and changes
+
+ LOGS & HISTORY
+
+☐ git log – View commit history
+
+☐ git log --oneline – Short log
+
+☐ git blame <file> – See who changed lines
+
+☐ git reflog – See HEAD history
+
+ REMOTES
+
+☐ git remote add origin <url> – Add remote
+
+☐ git remote -v – View remotes
+
+☐ git push origin <branch> – Upload changes
+
+☐ git pull – Download & merge changes
+
+☐ git fetch – Download but don’t merge
+
+☐ git push -u origin <branch> – Set upstream
+
+ OTHER USEFUL
+
+☐ git log <file> – History of a file
+
+☐ git diff <commit1> <commit2> – Compare commits
+
+☐ git checkout <commit> – Detached HEAD
+
+☐ git cherry-pick <commit> – Apply single commit
+
+☐ git tag <name> – Tag commit
+
+☐ git tag – List tags
+
+☐ git rm <file> – Delete file from repo
+
+☐ Add to .gitignore – Ignore files
