@@ -1,10 +1,10 @@
-✅ GIT COMMANDS CHECKLIST
-🚀 INIT & CLONE
+ GIT COMMANDS CHECKLIST
+ INIT & CLONE
 
 ☐ git init – Start a new repository
 
 ☐ git clone <url> – Copy a remote repo
-✅ STAGING & COMMITTING
+ STAGING & COMMITTING
 
 ☐ git status – See changes & branch
 
@@ -15,7 +15,7 @@
 ☐ git commit -m "message" – Save snapshot
 
 ☐ git commit --amend – Edit last commit
-🌳 BRANCHING
+ BRANCHING
 
 ☐ git branch – List branches
 
