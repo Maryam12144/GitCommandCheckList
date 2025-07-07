@@ -1,9 +1,11 @@
- GIT COMMANDS CHECKLIST
+GIT COMMANDS CHECKLIST
+
  INIT & CLONE
 
 ☐ git init – Start a new repository
 
 ☐ git clone <url> – Copy a remote repo
+
  STAGING & COMMITTING
 
 ☐ git status – See changes & branch
@@ -15,6 +17,7 @@
 ☐ git commit -m "message" – Save snapshot
 
 ☐ git commit --amend – Edit last commit
+
  BRANCHING
 
 ☐ git branch – List branches
@@ -32,6 +35,28 @@
 ☐ git branch -m <new> – Rename branch
 
 ☐ git branch -d <branch> – Delete branch
+
+ MERGING & CONFLICTS
+
+☐ git merge <branch> – Merge another branch
+
+☐ Resolve conflicts manually →
+☐ git add <file>
+☐ git commit
+
+☐ git merge --abort – Cancel merge
+
+ STASHING
+
+☐ git stash – Save changes for later
+
+☐ git stash list – See stashes
+
+☐ git stash apply – Apply stash
+
+☐ git stash pop – Apply + delete stash
+
+☐ git stash drop – Delete stash
 
  UNDOING CHANGES
 
@@ -59,7 +84,7 @@
 
 ☐ git reflog – See HEAD history
 
- REMOTES
+REMOTES
 
 ☐ git remote add origin <url> – Add remote
 
