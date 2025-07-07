@@ -1,0 +1,34 @@
+✅ GIT COMMANDS CHECKLIST
+🚀 INIT & CLONE
+
+☐ git init – Start a new repository
+
+☐ git clone <url> – Copy a remote repo
+✅ STAGING & COMMITTING
+
+☐ git status – See changes & branch
+
+☐ git add <file> – Stage changes
+
+☐ git add . – Stage everything
+
+☐ git commit -m "message" – Save snapshot
+
+☐ git commit --amend – Edit last commit
+🌳 BRANCHING
+
+☐ git branch – List branches
+
+☐ git branch <name> – Create new branch
+
+☐ git checkout <branch> – Switch branch
+
+☐ git switch <branch> – Switch branch (modern)
+
+☐ git checkout -b <branch> – Create + switch
+
+☐ git switch -c <branch> – Create + switch (modern)
+
+☐ git branch -m <new> – Rename branch
+
+☐ git branch -d <branch> – Delete branch
